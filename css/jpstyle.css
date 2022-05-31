@@ -1,0 +1,185 @@
+body h1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+#navigation {
+  background-color: #fff;
+}
+
+#openquote {
+margin-top: 20p
+}
+
+#fourimages {
+}
+
+
+.container-fluid {
+padding: 3% 2%;
+}
+
+.navbar {
+    font-family: 'IBM Plex Sans', sans-serif;
+  background-color:#fff;
+  padding: 3% 3% 1% 2%;
+}
+
+.navbar-brand {
+  width: 50%;
+}
+
+.indexp {
+  margin: 0px 0px 0px 0px;
+  clear: left;
+}
+
+.caption{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.96rem;
+  font-weight: 400;
+  clear: left;
+  padding-top: 4px;
+  color: #000;
+}
+
+.clearleft {
+  clear: left;
+}
+
+#foot {
+}
+/* VIDEO */
+
+.padderLF {
+  padding: 0% 0% 0% 2%;
+}
+
+/*** T H E - M A G I C - O F - O B J E C T - F I T ***/
+/*****************************************************/
+
+.video-container {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  @media(min-width: 600px) {
+    height: 100vh;
+  }
+}
+
+video {
+  object-fit: cover; // Set the magic
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+/*** A E S T H E T I C S ***/
+/***************************/
+
+* {
+  box-sizing: border-box;
+}
+
+
+.video-container:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(black, .2);
+  z-index: 1;
+}
+
+.callout {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.support {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  position: relative;
+  z-index: 10;
+  a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      bottom: -2px;
+      width: 0;
+      height: 1px;
+      background-color: rgba(white, .3);
+      transition: .3s;
+    }
+    &:hover:before {
+      width: 100%;
+    }
+  }
+}
+
+/* my rollover */
+.indexhover {
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+
+}
+.indexhover:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    -webkit-transition: opacity 0.3s ease-in;
+}
+
+.colorOne {
+position:relative;
+background-color: #570A57;
+}
+
+.colorTwo {
+position:relative;
+background-color: #570A57;
+}
+
+.colorThree {
+position:relative;
+background-color: #570A57;
+}
+
+.mult {
+  mix-blend-mode: screen;
+}
