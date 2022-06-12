@@ -49,6 +49,15 @@ padding: 3% 2%;
   color: #000;
 }
 
+.archiveText{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  clear: left;
+  padding-top: 0px;
+  color: #000;
+}
+
 .clearleft {
   clear: left;
 }
